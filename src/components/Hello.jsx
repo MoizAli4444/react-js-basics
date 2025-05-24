@@ -1,6 +1,6 @@
-const Hello = () => {
+const Hello = (props) => {
   return (
-    <div>Hello from a component</div>
+    <div>{props.message} {props.name}</div>
   )
 }
 
