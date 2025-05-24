@@ -5,7 +5,7 @@ export default function Fruits() {
     <>
       <ul>
         {fruits.map((fruit) => (
-          <li>{fruit}</li>
+          <li key={fruit}>{fruit}</li>
         ))}
       </ul>
     </>
