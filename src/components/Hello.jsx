@@ -6,7 +6,7 @@ const Hello = (props) => {
   // props.name = 'change'; // this show error becaus props are Immutable
 
   return (
-    <div>{props.message} {props.name}</div>
+    <div>{props.message} {props.name} {props.seatNumbers} </div>
   )
 }
 
