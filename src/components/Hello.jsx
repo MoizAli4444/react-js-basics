@@ -1,6 +1,10 @@
-const Hello = (props) => {
+// const Hello = (props) => {
+const Hello = ({name,message}) => {
+
+  // const {message,name} = props;
+
   return (
-    <div>{props.message} {props.name}</div>
+    <div>{message} {name}</div>
   )
 }
 
