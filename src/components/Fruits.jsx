@@ -1,9 +1,7 @@
 export default function Fruits() {
+  const fruits = ["Apple", "Mango", "Banana", "Orange", "Pineapple"];
 
-    const fruits = ["Apple","Mango","Banana","Orange","Pineapple"];
-
-    return 
-    <>
-    {fruits}
-    </>
+  return <>
+  {fruits}
+  </>;
 }
