@@ -3,6 +3,8 @@ import Hello from "./components/Hello"
 
 function App() {
 
+  const seatNumbers = [1,3,5];
+
   return (
     <>
       <div className='App'>
