@@ -3,9 +3,11 @@ export default function Fruits() {
 
   return (
     <>
-      {fruits.map((fruit) => (
-        <h2>{fruit}</h2>
-      ))}
+      <ul>
+        {fruits.map((fruit) => (
+          <li>{fruit}</li>
+        ))}
+      </ul>
     </>
   );
 }
