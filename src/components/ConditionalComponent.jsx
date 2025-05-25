@@ -5,15 +5,8 @@ import ConditionalComponentTwo from './ConditionalComponentTwo';
 const ConditionalComponent = () => {
 
     const display = false;
-let message ;
-  
-    if (display) {
-        message = <div><ConditionalComponentOne/></div>;
-    } else {
-        message = <div><ConditionalComponentTwo/></div>;
-    }
-  
-    return message;
+    return display ? <ConditionalComponentOne/> : <ConditionalComponentTwo/> ;
+    
 
 }
 
