@@ -7,10 +7,15 @@ const StateComponent = () => {
     SetCount(count + 1);
   }
 
+  function decValue() {
+    SetCount(count - 1);
+  }
+
   return (
     <>
       <div>Count value is : {count}</div>
       <button onClick={incValue}>Increment</button>
+      <button onClick={decValue}>Decrement</button>
     </>
   );
 };
