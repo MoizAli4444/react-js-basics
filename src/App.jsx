@@ -1,5 +1,6 @@
 import ConditionalComponent from "./components/ConditionalComponent";
 import Fruits from "./components/Fruits";
+import HandleEvents from "./components/HandleEvents";
 import Hello from "./components/Hello";
 
 
@@ -19,6 +20,7 @@ function App() {
         {/* <Hello person={person} /> */}
         <Fruits/>
         <ConditionalComponent/>
+        <HandleEvents/>
       </div>
     </>
   );
