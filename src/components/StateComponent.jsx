@@ -1,12 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const StateComponent = () => {
+  const [count, SetCount] = useState(0);
 
-    const [count,SetCount] = useState(0);
+  function incValue() {
+    SetCount(count + 1);
+  }
 
   return (
-    <div>Count value is : {count}</div>
-  )
-}
+    <>
+      <div>Count value is : {count}</div>
+      <button onClick={incValue}>Increment</button>
+    </>
+  );
+};
 
-export default StateComponent
+export default StateComponent;
