@@ -1,9 +1,9 @@
 import ConditionalComponent from "./components/ConditionalComponent";
+import Form from "./components/Form";
 import Fruits from "./components/Fruits";
 import HandleEvents from "./components/HandleEvents";
 import Hello from "./components/Hello";
 import StateComponent from "./components/StateComponent";
-
 
 function App() {
   // const seatNumbers = [1,3,5];
@@ -19,12 +19,17 @@ function App() {
       <div className="App">
         {/* <Hello name='MoizAli4444' message='Hello there,' seatNumbers={seatNumbers}/> */}
         {/* <Hello person={person} /> */}
-        <Fruits/>
-        <ConditionalComponent/>
-        <HandleEvents/>
+        <Fruits />
+        <ConditionalComponent />
+        <HandleEvents />
         <div>
-          <br/>
-          <StateComponent/>
+          <br />
+          <StateComponent />
+
+          <br />
+          <br />
+          <br />
+          <Form/>
         </div>
       </div>
     </>
