@@ -1,5 +1,8 @@
+import ConditionalComponent from "./components/ConditionalComponent";
 import Fruits from "./components/Fruits";
+import HandleEvents from "./components/HandleEvents";
 import Hello from "./components/Hello";
+import StateComponent from "./components/StateComponent";
 
 
 function App() {
@@ -17,6 +20,12 @@ function App() {
         {/* <Hello name='MoizAli4444' message='Hello there,' seatNumbers={seatNumbers}/> */}
         {/* <Hello person={person} /> */}
         <Fruits/>
+        <ConditionalComponent/>
+        <HandleEvents/>
+        <div>
+          <br/>
+          <StateComponent/>
+        </div>
       </div>
     </>
   );
